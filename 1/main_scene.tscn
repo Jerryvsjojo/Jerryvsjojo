@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://dn12ryia1qtml"]
+
+[ext_resource type="Texture2D" uid="uid://g1nig00kiso0" path="res://Pictures/icon.svg" id="1_wt4e2"]
+[ext_resource type="PackedScene" uid="uid://c7aiqyo226amy" path="res://OBJECTS.tscn" id="2_bw15y"]
+[ext_resource type="PackedScene" uid="uid://d0c4xwkjyx1jh" path="res://Backgroud.tscn" id="3_axom1"]
+
+[node name="Main scene" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(113, 93)
+rotation = -0.0092497
+scale = Vector2(1.64597, 1.33765)
+texture = ExtResource("1_wt4e2")
+
+[node name="objects" parent="." instance=ExtResource("2_bw15y")]
+
+[node name="Node2D" parent="." instance=ExtResource("3_axom1")]
+show_behind_parent = true

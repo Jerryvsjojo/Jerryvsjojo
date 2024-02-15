@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://c7aiqyo226amy"]
+
+[ext_resource type="Texture2D" uid="uid://bp3wb5u1713s7" path="res://Pictures/soldiers fear.png" id="1_5uv6d"]
+[ext_resource type="Texture2D" uid="uid://csjfrtt3nvncm" path="res://Pictures/soldiers numb.png" id="2_3gu58"]
+[ext_resource type="Texture2D" uid="uid://xopyuh8uq2dp" path="res://Pictures/soldiers.png" id="3_pmhq8"]
+
+[node name="objects" type="Node2D"]
+
+[node name="SoldiersFear" type="Sprite2D" parent="."]
+position = Vector2(890, 469)
+scale = Vector2(1.16667, 1.11389)
+texture = ExtResource("1_5uv6d")
+
+[node name="SoldiersNumb" type="Sprite2D" parent="."]
+position = Vector2(331, 457)
+scale = Vector2(1.06667, 1.12222)
+texture = ExtResource("2_3gu58")
+
+[node name="Soldiers" type="Sprite2D" parent="."]
+position = Vector2(613, 215)
+scale = Vector2(1, 1.03056)
+texture = ExtResource("3_pmhq8")
