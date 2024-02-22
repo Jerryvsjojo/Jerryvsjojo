@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://2y7dd08obsty"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+modulate = Color(0.972549, 0.721569, 0.666667, 1)
+offset_left = 267.0
+offset_top = 279.0
+offset_right = 363.0
+offset_bottom = 625.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+modulate = Color(0.00392157, 1, 0, 1)
+offset_left = 216.0
+offset_top = 185.0
+offset_right = 410.0
+offset_bottom = 325.0
